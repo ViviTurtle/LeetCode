@@ -28,7 +28,7 @@ class Solution:
         lookup_set[curr_value] = i
 ``` 
 
-[Optimized Solution](TwoSum-LL.py)
+[Optimized Solution](twoSum-LL.py)
 ```python
 class Solution:
     def twoSum(self, nums, target):
