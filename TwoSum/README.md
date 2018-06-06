@@ -13,22 +13,25 @@ return [0, 1].
 ```
 This is the very first [problem](https://leetcode.com/problems/two-sum/) given to us at [LeetCode](https://leetcode.com/). Some solutions are already provided in Java but I attempted to write the code in python.
 
-[Original Code](twoSum-Orig.py)
+[Original Code](twoSum-Orig.py): Runtime = O(n)
 
 ```python
 class Solution:
     def twoSum(self, nums, target):
+      #initiate dictionary
       lookup_set = {}
       length = len(nums)
+      #for loop
       for i in range (0, length):
         curr_value  = nums[i]
         complement = target - curr_value
+        #in dict is O(1) access
         if complement in lookup_set:
           return [lookup_set[complement],i]
         lookup_set[curr_value] = i
 ``` 
 
-[Optimized Solution](twoSum-LL.py)
+[Optimized Solution](twoSum-LL.py): Runtime = O(n)
 ```python
 class Solution:
     def twoSum(self, nums, target):
