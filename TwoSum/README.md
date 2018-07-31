@@ -49,7 +49,7 @@ Lessons Learned
 After completing the twoSum code with my semi-optimized solution, I viewed the other way people solved the problem. This led me to the method **enumerate()**. This method iterates through a list and returns a tuple - (index,value). This is very useful when you want to make a **for each** loops where you will be using the value **and** the index. tldr; - You can turn the following loop:
 
 ```python
- for index in range (0, length):
+for index in range (0, length):
         curr_value  = nums[i]
         ...
 ```
