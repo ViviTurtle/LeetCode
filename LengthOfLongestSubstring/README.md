@@ -123,5 +123,6 @@ There are quite a few things I learned on this one.
         >>> True
         testBoolean(d.get("rawr"))
         >>> False
-        ```
-4) Lastly, I re-learned (Since my programming in Java days), that one-off issues are still a huge pain.
+         ```
+4) I need to manually run through an algorithm before I actually start programming. I need to not rush, and grab all edge cases.
+5) Lastly, I re-learned (Since my programming in Java days), that one-off issues are still a huge pain.
