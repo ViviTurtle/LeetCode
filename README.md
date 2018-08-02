@@ -6,4 +6,5 @@ Write-ups and Code/Lessons Learned going through LeetCode
 |------|-----|
 |[TwoSum](TwoSum)|Easy|
 [AddTwoNumbers](AddTwoNumbers)|Medium|
+[LengthOfLongestSubstring](LengthOfLongestSubstring)|Medium|
 

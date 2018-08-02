@@ -1,4 +1,4 @@
-TwoSum
+Add Two Numbers
 =======
 >You are given two non-empty linked lists representing two non-negative integers. The digits are stored in reverse order and each of their nodes contain a single digit. Add the two numbers and return it as a linked list.
 
@@ -11,7 +11,7 @@ Output: 7 -> 0 -> 8
 Explanation: 342 + 465 = 807.
 ```
 
-This has a difficulty medium problem from [LeetCode](https://leetcode.com/problems/add-two-numbers/). Since the format used is a LinkedList, I decided to use a recursive approach to the problem. LinkedLists are a recursive data structure and it is cleaner to handle recursive data structures with recurisve code.
+This is a difficulty medium problem from [LeetCode](https://leetcode.com/problems/add-two-numbers/). Since the format used is a LinkedList, I decided to use a recursive approach to the problem. LinkedLists are a recursive data structure and I personally like to recursive data structures with recurive code.
 
 Base Cases: LinkedList.vals are None
 
