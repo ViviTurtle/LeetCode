@@ -88,7 +88,7 @@ Lessons Learned
 ---------------------
 
 There are quite a few things I learned on this one. 
-1) I need to get use to using **enumerate** instead of setting counters.
+1) **enumerate** indices can be set to iterate starting from an integer of your choice
 2) Using the Max built-in function is **only** faster than a manual **if curr>max:** statement if your iterating over a list. If you are calling max within a **for** loop it is significantly slower. 
     1) *See [Tests.py](Tests.py)* and  [LengthOfLongestSubstring-Max](LengthOfLongestSubstring-Max.py)*
 3) *None*, *Empty*, *0*, and *False* evaluate to False if used in a conditional. As in, if a variable is not set, that variable will evaluate to None, and thus the resulting conditional will result to *False*
